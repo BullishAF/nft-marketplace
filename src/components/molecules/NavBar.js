@@ -12,7 +12,7 @@ import ConnectButton from '../atoms/ConnectButton'
 
 const pages = [
   {
-    title: 'Market',
+    title: 'Social NFT Market',
     href: '/'
   },
   {
@@ -23,7 +23,7 @@ const pages = [
 
 const NavBar = () => {
   const { account } = useContext(Web3Context)
-  const logo = '🖼️'
+  const logo = '🗣'
 
   return (
     <AppBar position="static">
